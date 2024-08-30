@@ -8,7 +8,7 @@ dotenv.config()
 const port = process.env.PORT || 5000
 const app = express()
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://sharefilelink.netlify.app/',
 }))
 
 app.use('/api/v1', router)
