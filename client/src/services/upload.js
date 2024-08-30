@@ -1,5 +1,5 @@
 import axios from 'axios'
-const apiurl = 'http://127.0.0.1:3000/api/v1'
+const apiurl = 'https://file-sharing-taupe.vercel.app/api/v1'
 
 export const uploadfile = async (data) => {
     try {
