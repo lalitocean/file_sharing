@@ -2,8 +2,7 @@ import dotenv from 'dotenv';
 import File from '../models/file.model.js';
 dotenv.config();
 export const uploadimage = async (req, res) => {
-    console.log("main abhii tak call hi nahi hua hoon ")
-    console.log(req)
+
     const fileobj = {
         path: req.file.path,
         name: req.file.originalname
